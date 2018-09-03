@@ -1,0 +1,7 @@
+custom_robots_txt.custom_robots_txt_form:
+  path: '/admin/config/custom_robots_txt'
+  defaults:
+    _form: 'Drupal\custom_robots_txt\Form\CustomRobotsTxtForm'
+    _title: 'Custom Robots.txt'
+  requirements:
+    _permission: 'administer permissions'

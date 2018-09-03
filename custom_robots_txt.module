@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains custom_robots_txt.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function custom_robots_txt_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the custom_robots_txt module.
+    case 'help.page.custom_robots_txt':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Create a custom robots.txt in files directory') . '</p>';
+      return $output;
+
+    default:
+  }
+}

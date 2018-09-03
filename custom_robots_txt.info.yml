@@ -1,0 +1,5 @@
+name: 'custom robots.txt'
+type: module
+description: 'Create a custom robots.txt in files directory'
+core: 8.x
+package: 'Custom'

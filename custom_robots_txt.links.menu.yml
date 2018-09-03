@@ -1,0 +1,5 @@
+custom_robots_txt.custom_robots_txt_form:
+ title: 'Custom Robots.txt'
+ parent: system.admin_config_development
+ route_name: custom_robots_txt.custom_robots_txt_form
+ weight: 10
